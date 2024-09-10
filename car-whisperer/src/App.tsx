@@ -1,14 +1,18 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+import { Outlet } from 'react-router-dom'
+import Cabecalho from './components/Cabecalho/Cabecalho'
+import Conteudo from './components/Conteudo/Conteudo'
+import Rodape from './components/Rodape/Rodape'
 
-function App() {
+
+export default function App() {
 
   return (
     <div>
-      <h1>Hello World!</h1>
+      <Outlet/>
+      <Cabecalho/>
+      <Conteudo/>
+      <Rodape/>
     </div>
   )
 }
-
-export default App
