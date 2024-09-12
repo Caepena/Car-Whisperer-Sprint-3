@@ -1,7 +1,6 @@
-import { StrictMode } from 'react'
+import React from 'react'
 import { createRoot } from 'react-dom/client'
 import App from './App.tsx'
-import Home from './routes/PaginaInicial/index.tsx'
 import Help from './routes/Ajuda/index.tsx'
 import ChatOnline from './routes/ChatOnline/index.tsx'
 import Login from './routes/Login/index.tsx'
@@ -17,10 +16,6 @@ const router = createBrowserRouter([
     element: <App />,
     errorElement: <Error/>,
     children: [
-      {
-        path: "/",
-        element: <Home/>
-      },
       {
         path: "/ajuda",
         element: <Help/>
@@ -50,7 +45,7 @@ const router = createBrowserRouter([
 ])
 
 createRoot(document.getElementById('root')!).render(
-  <StrictMode>
+  <React.StrictMode>
     <RouterProvider router={router} />
-  </StrictMode>
+  </React.StrictMode>
 )
