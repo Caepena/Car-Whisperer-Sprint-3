@@ -1,4 +1,5 @@
 import React from 'react'
+import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import { createRoot } from 'react-dom/client'
 import App from './App.tsx'
 import Help from './routes/Ajuda/index.tsx'
@@ -7,7 +8,7 @@ import PaginaIntegrantes from './routes/PaginaIntegrantes/index.tsx'
 import Sobre from './routes/SobreNos/index.tsx'
 import Error from './routes/Error/index.tsx'
 import AuthPage from './routes/AuthPage/index.tsx'
-import { createBrowserRouter, RouterProvider } from 'react-router-dom'
+import PaginaInicial from './routes/PaginaInicial/index.tsx'
 
 const router = createBrowserRouter([
   {
@@ -15,6 +16,10 @@ const router = createBrowserRouter([
     element: <App/>,
     errorElement: <Error/>,
     children: [
+      {
+        path: "/",
+        element: <PaginaInicial/>
+      },
       {
         path: "/ajuda",
         element: <Help/>

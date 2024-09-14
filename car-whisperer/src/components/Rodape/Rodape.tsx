@@ -1,9 +1,10 @@
 import { Link } from "react-router-dom"
+import style from './Rodape.module.css'
 
 
 export default function Rodape() {
     return(
-        <header className="rodape">
+        <footer className={style.rodape}>
             <nav role="navigation">
                 <ul>
                     <li className="item"><Link to={"https://www.portoseguro.com.br/fale-conosco/contatos/telefones-e-sac?_gl=1*hoqak7*_ga*MTg2NDI3OTY3NC4xNzEzNjE1NDYy*_ga_S9FTJ8D526*MTcxNDAxOTU3Mi4yLjEuMTcxNDAxOTY0Ny40NS4wLjA."}>SAC & Telefones</Link></li>
@@ -15,6 +16,6 @@ export default function Rodape() {
                     <li className="item"><Link to="/pagina-integrantes">Página dos Integrantes</Link></li>
                 </ul>
             </nav>
-        </header>
+        </footer>
     )
 }

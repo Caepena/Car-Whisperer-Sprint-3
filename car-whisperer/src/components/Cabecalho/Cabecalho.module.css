@@ -1,0 +1,33 @@
+.cabecalho {
+    background-image: linear-gradient(to top, #4b5563, #A5A5A5);
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 20px;
+}
+
+.cabecalho ul {
+    display: flex; 
+    list-style-type: none; 
+    padding: 30px;
+}
+
+.cabecalho li {
+    margin-left: 50px; 
+}
+
+.link a {
+    text-decoration: none; 
+    color: rgb(0, 0, 0); 
+    font-family: Arial, sans-serif; 
+    display: inline;
+    font-family: monospace, Times, serif;
+    list-style: none;
+    margin-bottom: 20px;
+}
+
+.logo {
+    height: 70px; 
+    width: auto;
+}
+

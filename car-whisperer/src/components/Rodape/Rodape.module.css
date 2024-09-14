@@ -1,0 +1,21 @@
+.rodape{
+    display: flex;
+    gap: 40px;
+    list-style: none;
+    background-color: #3C97EA;
+    align-items: center;
+    justify-content: center;
+    height: 12vh;
+    width: 100%;
+    position: relative;
+}
+
+.rodape ul {
+    display: flex; 
+    list-style-type: none; 
+    padding: 30px;
+}
+
+.rodape li {
+    margin-left: 50px; 
+}

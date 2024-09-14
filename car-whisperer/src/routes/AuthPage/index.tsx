@@ -6,7 +6,7 @@ export default function AuthPage() {
   const [isLogin, setIsLogin] = useState(true); // Alterna entre Login e Cadastro
 
   return (
-    <div>
+    <div className='retangulo'>
       <h1>{isLogin ? 'Login' : 'Cadastro'}</h1>
       {isLogin ? <Login /> : <SignUp />}
       <button onClick={() => setIsLogin(!isLogin)}>
