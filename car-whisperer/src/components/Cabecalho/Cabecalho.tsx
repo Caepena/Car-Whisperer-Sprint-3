@@ -1,4 +1,4 @@
-import logo from '../../../public/img/porto-seguro-logo.png'
+import logo from '../../img/porto-seguro-logo.png'
 import { Link } from "react-router-dom";
 
 export default function Cabecalho() {

@@ -1,6 +1,8 @@
 import Integrante from "../../components/Integrante/Integrante";
 
 export default function PaginaIntegrantes() {
+    document.title = "Pagina dos Integrantes"
+
     return(
         <div>
             <Integrante
@@ -8,7 +10,7 @@ export default function PaginaIntegrantes() {
             rm="558054"
             turma="1TDSPG"
             github="https://github.com/MarcosBisp"
-            foto="/public/img/Marcos.jpg"/>
+            foto="..\src\img\Marcos.jpg"/>
         </div>
     )
 }
