@@ -13,7 +13,7 @@ export default function Integrante({nome, rm, turma, github, foto}: IntegrantePr
             <p>Nome: {nome}</p>
             <p>Turma: {turma}</p>
             <p>RM: {rm}</p>
-            <a href={github}>GitHub</a>
+            <p>Link do GitHub: {github}</p>
         </div>
     )
 }

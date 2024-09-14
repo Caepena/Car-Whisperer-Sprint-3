@@ -1,4 +1,5 @@
 import Integrante from "../../components/Integrante/Integrante";
+import style from './PaginaIntegrantes.module.css'
 
 export default function PaginaIntegrantes() {
     document.title = "Pagina dos Integrantes"
@@ -8,7 +9,7 @@ export default function PaginaIntegrantes() {
 
         <main>
             <a href="https://github.com/Caepena/Car-Whisperer-Sprint-3" className="repositorio">Repositório do GitHub</a>
-            <div className="grupo">
+            <div className={style.grupo}>
                 <Integrante
                 nome="Marcos Bispo"
                 rm="558054"
@@ -16,7 +17,7 @@ export default function PaginaIntegrantes() {
                 github="https://github.com/MarcosBisp"
                 foto="..\src\img\Marcos.jpg"/>
             </div>
-            <div className="grupo">
+            <div className={style.grupo}>
                 <Integrante
                 nome="Caetano Matos Penafiel"
                 rm="557984"
@@ -24,7 +25,7 @@ export default function PaginaIntegrantes() {
                 github="https://github.com/Caepena"
                 foto="..\src\img\Foto-Caetano.png"/>
             </div>
-            <div className="grupo">
+            <div className={style.grupo}>
                 <Integrante
                 nome="Marcos Bispo"
                 rm="558054"
