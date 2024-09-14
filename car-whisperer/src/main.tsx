@@ -3,11 +3,10 @@ import { createRoot } from 'react-dom/client'
 import App from './App.tsx'
 import Help from './routes/Ajuda/index.tsx'
 import ChatOnline from './routes/ChatOnline/index.tsx'
-import Login from './routes/Login/index.tsx'
 import PaginaIntegrantes from './routes/PaginaIntegrantes/index.tsx'
-import SignIn from './routes/SignIn/index.tsx'
 import Sobre from './routes/SobreNos/index.tsx'
 import Error from './routes/Error/index.tsx'
+import AuthPage from './routes/AuthPage/index.tsx'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 
 const router = createBrowserRouter([
@@ -25,16 +24,12 @@ const router = createBrowserRouter([
         element: <ChatOnline/>
       },
       {
-        path: "/login",
-        element: <Login/>
+        path: "/login-signin",
+        element: <AuthPage/>
       },
       {
         path: "/pagina-integrantes",
         element: <PaginaIntegrantes/>
-      },
-      {
-        path: "/sign-in",
-        element: <SignIn/>
       },
       {
         path: "/sobre",

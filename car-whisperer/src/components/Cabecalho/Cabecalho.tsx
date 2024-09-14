@@ -12,8 +12,7 @@ export default function Cabecalho() {
                     <li className="link"><Link to="/sobre">Sobre</Link></li>
                     <li className="link"><Link to="/ajuda">Ajuda</Link></li>
                     <li className="link"><Link to= "/chat-online">Chat Online</Link></li>
-                    <li className="link"><Link to="/login">Login</Link></li>
-                    <li className="link"><Link to ="/sign-in">Sign In</Link></li>
+                    <li className="link"><Link to="/login-signin">Login/Cadastro</Link></li>
                 </ul>
             </nav>
         </header>

@@ -1,4 +1,4 @@
-import Conteudo from "../../components/Conteudo/Conteudo";
+
 
 
 export default function Error() {
@@ -6,7 +6,7 @@ export default function Error() {
 
     return(
         <div>
-            <Conteudo/>
+            <h3>ERROR: Página não encontrada.</h3>
         </div>
     )
 }

@@ -1,4 +1,4 @@
-import Conteudo from "../../components/Conteudo/Conteudo";
+
 
 export default function ChatOnline() {
 
@@ -6,7 +6,11 @@ export default function ChatOnline() {
 
     return(
         <div>
-            <Conteudo/>
+            <main>
+                <div className="retangulo" role="application">
+                    <h3 className="centro">Aqui você pode conversar com o nosso chat 24H</h3>
+                </div>
+            </main>
         </div>
     )
 }
