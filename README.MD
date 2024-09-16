@@ -1,0 +1,1 @@
+- É necessário cadastrar um usuário para conseguir fazer o login.
